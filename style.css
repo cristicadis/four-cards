@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:15px;
+
+}
+
+h1 {
+  color:  hsl(234, 12%, 34%);
+}
+
+
+ h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+
+}
+
+p { color: hsl(229, 6%, 66%); }
+
+header {
+  margin: 80px 30px 75px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 20px 0;
+
+}
+
+.strong {
+  font-weight: 600;
+
+}
+
+header > p {
+  max-width: 520px;
+  margin: auto;
+}
+
+.cards-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.card {
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+  width: 350px; height: 250px;
+  padding: 32px;
+  margin: 15px;
+  border-radius: 10px;
+  border-top: solid 5px;
+  -webkit-box-shadow: 2px 5px 20px hsl(229, 6%, 66%);
+  box-shadow: 2px 5px 20px hsl(229, 6%, 66%);
+
+}
+
+
+.card p {
+  padding: 10px 0 20px 0;
+}
+
+.green {
+  border-top-color:  hsl(180, 62%, 55%);
+
+}
+
+.red {
+  border-top-color:  hsl(0, 78%, 62%);
+}
+
+.orange {
+  border-top-color:  hsl(34, 97%, 64%);
+
+}
+
+.blue {
+  border-top-color:  hsl(212, 86%, 64%);
+
+}
+
+.card img{
+    float: right;
+}
+
+
+
+@media screen and (min-width: 1157px){
+    .green,
+    .blue {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
